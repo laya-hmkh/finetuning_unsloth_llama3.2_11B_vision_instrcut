@@ -15,13 +15,13 @@ Training dataset = [maomao1234/r1_report_generation]([https://x.ai](https://hugg
   - Standard NLP Metrics: ROUGE-1, ROUGE-2, ROUGE-L, BERTScore, METEOR
   
   Medical-Specific Metrics:
-  -Anatomical structure F1 score
-  -Pathology classification accuracy
-  -Negation handling accuracy
-  -Severity matching accuracy
-  -Location accuracy
-  -Medical terminology coverage
-  -Report completeness
+  - Anatomical structure F1 score
+  - Pathology classification accuracy
+  - Negation handling accuracy
+  - Severity matching accuracy
+  - Location accuracy
+  - Medical terminology coverage
+  - Report completeness
 
 ## Results
 
