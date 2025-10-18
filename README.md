@@ -27,3 +27,16 @@ Report completeness
 <p align="center"> <img src="comparison_chart.png" alt="Performance Comparison" width="700"/> </p>
 Training Monitoring
 <p align="center"> <img src="training_curves.png" alt="Training Curves" width="700"/> </p>
+
+
+| Metric | Base Model | Fine-tuned | Improvement | 
+| --- | --- | --- | --- |
+| ROUGE-1 | 0.0793 | 0.3965 | +400% | 
+| ROUGE-2 | 0.0137 | 0.1587 | +1058% | 
+| ROUGE-L | 0.0636 | 0.2849 | +348% |
+| BERTScore | 0.8004 | 0.8838 | +10.4% | 
+| Anatomical F1 | 0.1777 | 0.5948 | +235% | 
+| Pathology F1 | 0.5715 | 0.6395 | +11.9% | 
+
+
+
