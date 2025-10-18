@@ -2,7 +2,7 @@
 
 This project fine-tunes the Llama 3.2-11B-Vision-Instruct model using LoRA (Low-Rank Adaptation) to generate comprehensive & detailed radiology reports from medical images. The model learns to identify anatomical structures, detect pathological findings, and produce detailed clinical descriptions.
 
-Training dataset = [maomao1234/r1_report_generation]([https://x.ai](https://huggingface.co/datasets/maomao1234/r1_report_generation))
+Training dataset = [maomao1234/r1_report_generation]([https://x.ai](https://huggingface.co/datasets/maomao1234/r1_report_generation)) from hugging face
 
 ## Highlights
 - LoRA Fine-tuning: Efficient parameter-efficient training
