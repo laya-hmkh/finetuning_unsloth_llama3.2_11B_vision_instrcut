@@ -24,6 +24,6 @@ Report completeness
 
 ## Results
 
-<p align="center"> <img src="path/to/comparison_chart.png" alt="Performance Comparison" width="700"/> </p>
+<p align="center"> <img src="comparison_chart.png" alt="Performance Comparison" width="700"/> </p>
 Training Monitoring
-<p align="center"> <img src="path/to/training_curves.png" alt="Training Curves" width="700"/> </p>
+<p align="center"> <img src="training_curves.png" alt="Training Curves" width="700"/> </p>
