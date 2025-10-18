@@ -1,1 +1,29 @@
-# finetuning_unsloth_llama3.2_11B_vision_instrcut
+# Medical Report Generation from Radiology Images
+
+This project fine-tunes the Llama 3.2 11B Vision-Instruct model using LoRA (Low-Rank Adaptation) to generate comprehensive & detailed radiology reports from medical images. The model learns to identify anatomical structures, detect pathological findings, and produce detailed clinical descriptions.
+
+## Highlights
+- LoRA Fine-tuning: Efficient parameter-efficient training
+- 4-bit Quantization: Reduced memory footprint using bitsandbytes
+- Gradient Checkpointing: Memory-efficient training
+- Early Stopping: Automatic training termination based on validation loss
+- Overfitting Detection: Monitors train-validation loss gap
+- Comprehensive Monitoring: Real-time tracking of loss, learning rate, and GPU memory
+- Extensive evaluation with medical specific metrics
+
+## Evaluation Metrics
+Standard NLP Metrics: ROUGE-1, ROUGE-2, ROUGE-L, BERTScore, METEOR
+Medical-Specific Metrics:
+Anatomical structure F1 score
+Pathology classification accuracy
+Negation handling accuracy
+Severity matching accuracy
+Location accuracy
+Medical terminology coverage
+Report completeness
+
+## Results
+
+<p align="center"> <img src="path/to/comparison_chart.png" alt="Performance Comparison" width="700"/> </p>
+Training Monitoring
+<p align="center"> <img src="path/to/training_curves.png" alt="Training Curves" width="700"/> </p>
